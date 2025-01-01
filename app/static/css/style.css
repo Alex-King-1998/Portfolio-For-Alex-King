@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+.index h2 {
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #302f2f;
+    z-index: 1;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(228, 130, 3);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+/* Resources Page Specific Styles */
+body.resources {
+    background-color: #f4f4f9;
+    font-family: "Roboto";
+    margin-top: 60px; /* Prevent navbar overlap */
+}
+
+.resources .content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.resources .content h1 {
+    text-align: center;
+}
+
+.resources .content h2 {
+    margin-top: 30px;
+}
+
+.resources a {
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+.resources #cv {
+    font-family: "Roboto";
+}
+
+/* Contact Form Styles */
+.contact h1 {
+    margin-top: 60px;
+    font-family: "Roboto";
+}
+
+.contact h2 {
+    font-family: "Roboto";
+}
+
+.contact p {
+    font-family: "Roboto";
+}
+
+.contact a {
+    font-family: "Roboto";
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar li {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .resources .content {
+        padding: 10px;
+    }
+}
+
+.message-field {
+    padding-top: 10px;
+}
+
+textarea {
+    height: 150px;
+    width: 300px;
+}
+
+#Alex-King {
+    height: 500px;
+    width: 700px;
+    filter: drop-shadow(10px 10px 10px black);
+    display: block;
+    margin: 0 auto;
+}
+
+#Introduction {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.index, .contact, .resources {
+    margin-left: 10px;
+}
